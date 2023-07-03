@@ -1,0 +1,64 @@
+---
+import Service from "../cards/Service.astro";
+import Container from "../shared/Container.astro";
+import Paragraph from "../shared/Paragraph.astro";
+import Title from "../shared/Title.astro";
+
+---
+
+<section id="services">
+    <Container className="space-y-10 md:sapce-y-12">
+        <div class="text-center max-w-3xl mx-auto space-y-4">
+            <Title>
+                What we offer
+            </Title>
+            <Paragraph>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </Paragraph>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            <Service title="Swift Cross-Border Payments" description="FinEdge offers fast and efficient cross-border payment solutions, enabling individuals and businesses to seamlessly transfer funds internationally.">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+            <Service title="Secure Currency Exchange" description="FinEdge provides a secure platform for currency exchange, ensuring competitive rates and transparent transactions for converting funds between different currencies.">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+            <Service title="International Remittance" description="FinEdge facilitates hassle-free international remittance services, allowing individuals to send money to their loved ones abroad quickly and securely.">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+            <Service title="Merchant Services" description="FinEdge offers merchant services that enable businesses to accept payments from customers worldwide, providing a seamless and convenient payment experience across borders.">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+            <Service title="Multi-Currency Accounts" description="FinEdge provides multi-currency accounts, allowing customers to hold and manage funds in various currencies, simplifying international financial operations.">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+            <Service title="Risk Management Solutions" description="FinEdge offers risk management solutions to help businesses mitigate foreign exchange risks, providing tools and strategies to manage currency fluctuations and optimize financial outcomes.">
+                <span slot="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                    </svg> 
+                </span>
+            </Service>
+        </div>
+    </Container>
+</section>
